@@ -1,19 +1,34 @@
 
+  html {
+    scroll-behavior: smooth;
+  }
   .bgcolor {
     margin: 0;
     padding: 0;
     width:100%;
     height: 100%;
-    background-color: hsla(206, 64%, 38%, 0.439);
+
+    /*background-color: hsla(206, 64%, 38%, 0.439);*/
+    background-image:url("../img/dogesky.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat full;
   }
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-    height:100%;
+    width:auto;
+    height:auto;
   }
 
+ .navbar {
+     
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index:500;
+ }
   .loader-wrapper {
     width: 100%;
     height: 100%;
@@ -60,16 +75,19 @@
   .menu{
     width:100%; 
     height:auto; 
-    background-image:url("img/dogebg.jpg");
-    background-repeat: no-repeat;
     margin:auto; 
     border: 5px solid rgb(71, 71, 180);
+  }
+  .li.a{
+      color:rgb(0, 0, 0);
   }
   .menutext{
     text-align: center;
 
   }
-
+  .navbar-default{
+    background-image:url("../img/dogebg.jpg");
+  }
   .navbar-brand.nonclickable{
       pointer-events: none;
       cursor: default;
@@ -87,4 +105,20 @@
     border-left: 0.5rem solid #00ff99;
   }
   
-  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #4CAF50;
+  }
+
+ p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+ .firstSection {
+    width: 100%px;
+    height: 1100px;
+  }
