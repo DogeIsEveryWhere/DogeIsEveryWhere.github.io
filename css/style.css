@@ -77,6 +77,8 @@
     width:100%; 
     height:auto; 
     margin:auto; 
+    top: 0;
+    position: sticky;
     border: 5px solid rgb(71, 71, 180);
   }
   .li.a{
