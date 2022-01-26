@@ -27,7 +27,7 @@
     position:sticky;
     top: 0;
     width: 100%;
-    z-index:500;
+    z-index:1;
  }
   .loader-wrapper {
     width: 100%;
@@ -39,6 +39,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    z-index:2;
   }
 
   .loader {
