@@ -13,16 +13,16 @@
       <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      <nav class="menu">
+      <nav class="menu" id="gradientMenu">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand nonclickable" href="#">Peter Page</a>
           </div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-            <li><a href="#secondSection"><span class="glyphicon glyphicon-user"></span> About me</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-book"></span> Materials</a></li>
-            <li class ="dropdown"><a class ="dropdown-toggle" data-toggle ="dropdown" href="#"><span class="glyphicon glyphicon-file">Project</span><span class="caret"></span></a>
+            <li class="active"><a href="#" id="menuChoice"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li><a href="#secondSection" id="menuChoice"><span class="glyphicon glyphicon-user"></span> About me</a></li>
+            <li><a href="#" id="menuChoice"><span class="glyphicon glyphicon-book"></span> Materials</a></li>
+            <li class ="dropdown"><a id="menuChoice" class ="dropdown-toggle" data-toggle ="dropdown" href="#"><span class="glyphicon glyphicon-file">Project</span><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Project 1</a></li>
               </ul>
@@ -39,7 +39,26 @@
     </div>
 
     <div class="secondSection" id="secondSection">
+      <div id="about">
+        <div> <!-- heading -->
+          <h1> 
+            <span style="color:rgb(25, 25, 197)"> 
+              About me
+            </span>
+          </h1>
+        </div>
+        <div>
+          <p>
+            <span>
+              Hello there! I am Peter Lee, a year 2 computer science student at City University of Hong Kong.
+              I am fascinated by Application Development and Web Development.
+            </span>
 
+          </p>
+        </div>
+
+        
+      </div>
     </div>
 
       
