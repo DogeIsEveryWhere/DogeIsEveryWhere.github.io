@@ -72,8 +72,26 @@
       </div>
     </div>
 
+    <!-- picture slide js and jQuery for time swap picture-->
     <script>
       var slideIndex = 1;
+
+      $(document).ready( function(){
+        window.setInterval( function(){
+        showSlides(++slideIndex);
+      },3000);
+      });
+
+      //Normal js
+      /*
+      
+      setInterval(function(){ 
+        showSlides(++slideIndex);
+      }, 2000);
+      */
+
+      // 5 second 1 picture
+      
       showSlides(slideIndex);
       
       function plusSlides(n) {
@@ -99,6 +117,10 @@
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
       }
+
+
+
+
       </script>
 
 
